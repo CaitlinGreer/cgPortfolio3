@@ -1,11 +1,11 @@
 /* general styles */
- 
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: #FFFFFF;
+  background: url("images/whitetexturebackground.jpg");
   margin: 0 auto;
 }
 
@@ -76,7 +76,6 @@ img {
 
 .img1 {
   border-radius: 10px;
-  margin: 0 30px 0 0;
 }
 
 .img-small{
@@ -87,7 +86,7 @@ h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 35px;
   color: #3a506b;
-  margin: 20px 0 10px 0;
+  margin: 10px 0 10px 0;
   padding: 10px 0 5px 0;
 }
 
@@ -111,8 +110,8 @@ p {
   font-family: Optima, Arial, sans-serif;
   font-size: 17px;
   color: #3a506b;
-  margin: 0% 15%;
-  padding: 2% 5%;
+  margin: 0% 3%;
+  padding: 3% 5%;
   text-align: justify;
 }
 
@@ -230,15 +229,12 @@ h5 {
 .group {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-
 }
 
 .item {
   flex: 1;
-  margin: 5px;
-
+  margin: 5px
 }
 
 .item-double {
