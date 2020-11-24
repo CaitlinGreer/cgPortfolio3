@@ -145,7 +145,6 @@ section.bg-callout {
 /* email form */
 form {
   flex: 1;
-  margin: 10px;
   padding: 0 30px;
   width: 100%;
 }
