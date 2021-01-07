@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url("images/whitetexturebackground.jpg");
+  background: #FFFFFF;
   margin: 0 auto;
 }
 
@@ -76,17 +76,23 @@ img {
 
 .img1 {
   border-radius: 10px;
+  margin: 0 30px 0 0;
 }
 
 .img-small{
   width: 25%;
 }
 
+.portfolio-image {
+  max-width: 400px;
+  height: auto;
+}
+
 h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 35px;
   color: #3a506b;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 10px 0;
   padding: 10px 0 5px 0;
 }
 
@@ -110,8 +116,8 @@ p {
   font-family: Optima, Arial, sans-serif;
   font-size: 17px;
   color: #3a506b;
-  margin: 0% 3%;
-  padding: 3% 5%;
+  margin: 0% 15%;
+  padding: 2% 5%;
   text-align: justify;
 }
 
@@ -145,6 +151,7 @@ section.bg-callout {
 /* email form */
 form {
   flex: 1;
+  margin: 10px;
   padding: 0 30px;
   width: 100%;
 }
@@ -228,12 +235,15 @@ h5 {
 .group {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+
 }
 
 .item {
   flex: 1;
-  margin: 5px
+  margin: 5px;
+
 }
 
 .item-double {
